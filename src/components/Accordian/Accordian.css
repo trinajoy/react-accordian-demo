@@ -1,7 +1,7 @@
 .accordian__section {
   display: flex;
   flex-direction: column;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   max-width: 500px;
 }
 
@@ -9,14 +9,13 @@
   background-color: #00adb5;
   color: #000;
   cursor: pointer;
-  padding: 18px;
+  padding: 10px;
   display: flex;
   align-items: center;
   border: none;
   outline: none;
   text-transform: uppercase;
   transition: background-color 0.6 ease;
-  box-shadow: 0 4px 6px -2px gray;
 }
 
 .accordian:hover,
@@ -24,7 +23,7 @@
   background-color: #09c0c9;
 }
 
-.accordian_title {
+.accordian__title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;

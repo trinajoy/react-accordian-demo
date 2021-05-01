@@ -3,8 +3,6 @@ import "./HomePage.css";
 import Accordian from "../Accordian/Accordian";
 import SideBar from "../SideBar/SideBar";
 import copy from "../copy";
-// import Media from "react-media";
-
 function HomePage() {
   return (
     <div className="home-bg">
