@@ -1,0 +1,23 @@
+.aside {
+  background-color: #000;
+  margin: 0;
+  padding: 50px 20px 20px 40px;
+  height: 100%;
+  width: 270px;
+  color: #fff;
+  text-align: left;
+}
+
+h1 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+blockquote {
+  margin: 20px 0 30px;
+  padding-left: 20px;
+  border-left: 5px solid #00adb5;
+  font-weight: bold;
+  line-height: 1.6;
+}

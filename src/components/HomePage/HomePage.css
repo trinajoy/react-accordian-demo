@@ -5,7 +5,31 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.accordian-container {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.side-content {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  margin-right: 50px;
+}
+
+@media (max-width: 750px) {
+  .side-content {
+    display: none;
+  }
+
+  .accordian-container {
+    margin: 20px;
+    width: 100%;
+  }
 }

@@ -23,7 +23,7 @@ function Accordian(props) {
         <Chevron className={`${setRotate}`} width={10} fill={"#000"} />
       </button>
       <div ref={content} style={{maxHeight: `${setHeight}`}} className="accordian__content">
-        <div className="accordian_text" dangerouslySetInnerHTML={{__html: props.content}} />
+        <div className="accordian__text" dangerouslySetInnerHTML={{__html: props.content}} />
       </div>
     </div>
   );
