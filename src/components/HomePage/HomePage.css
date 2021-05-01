@@ -24,6 +24,12 @@
   margin-right: 100px;
 }
 
+.pagination-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
 @media (max-width: 750px) {
   .side-content {
     display: none;

@@ -1,0 +1,29 @@
+.arrow-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+}
+
+.arrow-container p {
+  margin: 0;
+}
+
+.chevron-left {
+  background-color: #eeeeee;
+}
+
+.chevron-right {
+  background-color: #09c0c9;
+}
+
+.chevron-right,
+.chevron-left {
+  padding: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 1s;
+}
+
+.chevron-right:hover,
+.chevron-left:hover {
+  transform: scale(1.1);
+}

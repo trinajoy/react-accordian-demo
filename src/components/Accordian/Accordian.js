@@ -1,6 +1,6 @@
 import React, {useState, useRef} from "react";
 import "./Accordian.css";
-import Chevron from "../Chevron";
+import ChevronDown from "../Chevron/ChevronDown";
 
 function Accordian(props) {
   const [setActive, setActiveState] = useState("");
@@ -20,7 +20,7 @@ function Accordian(props) {
       <button className={`accordian ${setActive}`} onClick={toggleAccordian}>
         <p className="accordian__title"> {props.title} </p>
 
-        <Chevron className={`${setRotate}`} width={10} fill={"#000"} />
+        <ChevronDown className={`${setRotate}`} width={10} fill={"#000"} />
       </button>
       <div ref={content} style={{maxHeight: `${setHeight}`}} className="accordian__content">
         <div className="accordian__text" dangerouslySetInnerHTML={{__html: props.content}} />

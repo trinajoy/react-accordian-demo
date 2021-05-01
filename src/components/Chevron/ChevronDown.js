@@ -1,6 +1,6 @@
 import React from "react";
 
-function Chevron(props) {
+function ChevronDown(props) {
   return (
     <svg className={props.className} height={props.height} width={props.width} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
       <path
@@ -11,4 +11,4 @@ function Chevron(props) {
   );
 }
 
-export default Chevron;
+export default ChevronDown;
